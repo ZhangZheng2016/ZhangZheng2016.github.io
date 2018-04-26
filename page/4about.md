@@ -13,7 +13,6 @@ type: page
 
 硕士期间做的项目大都是[毫米波](https://baike.baidu.com/item/%E6%AF%AB%E7%B1%B3%E6%B3%A2/2458350?fr=aladdin)相关，有阵列天线传输优化（码本优化），也有感知联合机器学习、深度学习做的一些有趣的东西，比如手势识别、步态识别等。
 
-本人硕士指导老师是周安福老师，在毫米波方面有诸多建树
 
 比较喜欢听音乐，旅行。最远到过西安，希望毕业旅行能去更远一点！
 
@@ -38,7 +37,7 @@ type: page
 
 ## 关于本站
 
-**感谢@Gaohaoy 提供了博客主题模板。若您想使用这个 jekyll 博客主题，请访问：[https://github.com/Gaohaoyang/gaohaoyang.github.io](https://github.com/Gaohaoyang/gaohaoyang.github.io)**
+**感谢@Gaohaoyang 提供了博客主题模板。若您想使用这个 jekyll 博客主题，请访问：[https://github.com/Gaohaoyang/gaohaoyang.github.io](https://github.com/Gaohaoyang/gaohaoyang.github.io)**
 
 
 
