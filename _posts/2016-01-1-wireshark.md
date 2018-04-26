@@ -31,6 +31,6 @@ wireshark是一个网络封包分析软件。网络封包分析软件的功能�
 
 进入wireshark界面。可能会显示一个error，ignore就好了。
 
-然后我们就能在界面上看到许多接口了，选择monitor[set monitor]()的那个接口名，进行抓包。
+然后我们就能在界面上看到许多接口了，选择monitor模式（monitor模式切换，点击：[set monitor](https://zhangzheng2016.github.io/2017/01/01/monitor/)的那个接口名，进行抓包。
 
 
