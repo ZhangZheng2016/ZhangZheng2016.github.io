@@ -13,6 +13,14 @@ type: page
 
 <iframe src="https://githubbadge.appspot.com/gaohaoyang?s=1" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
 
+<<<<<<< HEAD
+=======
+主要兴趣集中在前端开发，大前端的概念深入我心。将更多的业务逻辑放在前端中，这很有趣。同时，将自己构想的内容实现出来，这种感觉很愉快。
+
+热爱美好的事物，热爱摇滚乐，组过乐队，卖过唱。
+
+很喜欢崔健的歌词：现实像块石头，精神像个蛋，石头虽然坚硬，可蛋里才是生命。
+>>>>>>> b29f21e056c6e94c3210ae9c29e65a284bda3876
 
 还有，学习是一个非常愉快的过程。共同加油！
 
