@@ -1,0 +1,10 @@
+#!/bin/bash
+sudo nmcli radio wifi off
+sudo rfkill unblock wlan
+sudo ifconfig wlp5s0 10.0.0.1/24 up
+sleep 1
+sudo service isc-dhcp-server restart
+
+
+hostapd -B /etc/hostapd/hostapd_11ad.conf
+

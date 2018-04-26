@@ -15,8 +15,10 @@ tags: 高通 网卡 毫米波 60GHz
 # (五)	测试连接
 ## 1. ping测试
 直接ping对方的IP地址
- 
-ubuntu和windows下一样。
+
+ ![006](https://raw.githubusercontent.com/ZhangZheng2016/ZhangZheng2016.github.io/master/_posts/picture/006.png)
+
+ ubuntu和windows下一样。
 
 ## 2. iperf测试
 Iperf 是一个网络性能测试工具。Iperf可以测试最大TCP和UDP带宽性能。Iperf具有多种参数和UDP特性，可以根据需要调整。Iperf可以报告带宽，延迟抖动和数据包丢失。接下来介绍iperf的安装。
@@ -26,6 +28,7 @@ Iperf 是一个网络性能测试工具。Iperf可以测试最大TCP和UDP带宽
 双击start.bat，即进入运行界面。
 windows版本下iperf直接安装图形化GUI的Jperf。解压jperf-2.0.2.zip，运行jperf.bat
 配置及结果如下图所示：
+![007](https://raw.githubusercontent.com/ZhangZheng2016/ZhangZheng2016.github.io/master/_posts/picture/007.png)
  
 [2]	Ubuntu下iperf安装与使用
 使用如下命令安装：
@@ -65,7 +68,9 @@ client端：
 
 Ubuntu下测试结果如图所示
 
+![008](https://raw.githubusercontent.com/ZhangZheng2016/ZhangZheng2016.github.io/master/_posts/picture/008.png)
 
 [iperf](https://iperf.fr/iperf-doc.php)
 网站中有iperf的使用说明。要注意的是，iperf在配置的时候客户端和host端是有区别的。测试过程未完待续...
 基本测试到此结束。还有一些遮挡测试什么的，不重要了。
+配置到此结束。

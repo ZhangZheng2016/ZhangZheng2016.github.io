@@ -1,0 +1,10 @@
+#!/bin/bash
+#interface_name="wlp10s0"
+#sudo ifconfig interface_name down
+#sudo iw interface_name set type monitor
+#sudo ifconfig interface_name up
+#sudo iwconfig | grep interface_name
+sudo ifconfig wlp10s0 down
+sudo iw wlp10s0 set type monitor
+sudo ifconfig wlp10s0 up
+sudo iwconfig | grep wlp10s0
