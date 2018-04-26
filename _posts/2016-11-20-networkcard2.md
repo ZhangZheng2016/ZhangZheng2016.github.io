@@ -9,9 +9,6 @@ tags: 高通 网卡 毫米波 60GHz
 * content
 {:toc}
 
-
-
-
 # (四)	连接问题
 ## 配置AP
 我们在初期测试网卡时，需要用到hostapd将其中的一个网卡配置成AP模式，接下来是hostapd的配置过程。

@@ -10,7 +10,6 @@ tags: 高通 网卡 毫米波 60GHz
 {:toc}
 
 
-
 ## Ubuntu下的连接
 开启AP模式之后就能在另一台ubuntu电脑（也安装该网卡）上搜索到该AP了，按照如下配置
 ![ubuntupeizhi](https://raw.githubusercontent.com/ZhangZheng2016/ZhangZheng2016.github.io/master/_posts/picture/001.png)

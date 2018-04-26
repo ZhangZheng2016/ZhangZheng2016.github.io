@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "高通毫米波网卡配置"
+title:  "高通毫米波网卡配置（1）"
 date:   2016-11-15 00:06:05
 categories: 网卡
 tags: 高通 网卡 毫米波 60GHz
@@ -11,6 +11,12 @@ tags: 高通 网卡 毫米波 60GHz
 
 ## 问题描述
 新拿到了一个60GHz毫米波网卡，需要配置一下才能在ubuntu上正常使用，并实现诸多功能，比如AP模式、抓包等等。由于此前从来没接触过，鉴于毫米波网卡的稀有性，国内外也没有一个配置的教程供人参考。下面说一下我的配置过程吧。
+# 注：
+本文在博客中共分四篇完成。
+其中有许多使用到的脚本文件、配置文件如下图所示：
+![github](https://raw.githubusercontent.com/ZhangZheng2016/ZhangZheng2016.github.io/master/_posts/picture/file_list.png)
+
+均可在[github](https://github.com/ZhangZheng2016/ZhangZheng2016.github.io/tree/master/_posts/file)中找到。
 # (一)	前言
 本文将主要叙述一下网卡“QCA9008-TBD1”的配置安装过程。硬件安装详见硬件部分。在整个配置过程当中，会遇到好多好多的问题，因为ubuntu强大的安全性，会有很多权限问题出现，同时涉及到硬件部分会有很多意想不到的error。这款网卡又是较为少见的硬件，google也不是万能的，这就需要有强大的内心。本人在配置过程中一度走到死角(初期以为需要配置内核，结果一个问题套着一个问题无穷尽，最后整个电脑当掉了只好重装系统)，最后在一次次尝试当中总结出了安装的正确途径。特此记录，以遗来者。
 # (二)	内核问题
@@ -19,35 +25,36 @@ tags: 高通 网卡 毫米波 60GHz
 * 以下均是在ubuntu的root权限之下的终端操作
 * 步骤参考网址：https://wiki.ubuntu.com/KernelTeam/GitKernelBuild
 * 以下过程需要在联网情况下完成（需要耗费大量流量、时间）
-	 sudo apt-get update
 
-	 sudo apt-get install git build-essential kernel-package fakeroot libncurses5-dev libssl-dev ccache
+	  sudo apt-get update
 
-	 cd $HOME
+	  sudo apt-get install git build-essential kernel-package fakeroot libncurses5-dev libssl-dev ccache
 
-	 git clone git://git.kernel.org/pub/scm/linux/kernel/git/kvalo/ath.git
+	  cd $HOME
 
-	 cd linux
+	  git clone git://git.kernel.org/pub/scm/linux/kernel/git/kvalo/ath.git
 
-	 git checkout COMMIT
+	  cd linux
 
-	 cp /boot/config-`uname -r` .config
+	  git checkout COMMIT
 
-	 make oldconfig
+	  cp /boot/config-`uname -r` .config
 
-     make clean
+	  make oldconfig
 
-     make -j5 `getconf _NPROCESSORS_ONLN` deb-pkg LOCALVERSION=-custom
+      make clean
 
-     cd ..
+      make -j5 `getconf _NPROCESSORS_ONLN` deb-pkg LOCALVERSION=-custom
 
-     sudo dpkg -i linux-image-2.6.24-rc5-custom_2.6.24-rc5-custom-10.00.Custom_i386.deb
+      cd ..
 
-     sudo dpkg -i linux-headers-2.6.24-rc5-custom_2.6.24-rc5-custom-10.00.Custom_i386.deb
+      sudo dpkg -i linux-image-2.6.24-rc5-custom_2.6.24-rc5-custom-10.00.Custom_i386.deb
 
-     sudo reboot
+      sudo dpkg -i linux-headers-2.6.24-rc5-custom_2.6.24-rc5-custom-10.00.Custom_i386.deb
 
-经测试，内核不是问题！以上并非必要（捶桌三分钟）但依然对自定义内核的安装有指导作用。
+      sudo reboot
+
+warning:经测试，内核不是问题！以上并非必要（捶桌三分钟）但依然对自定义内核的安装有指导作用。
 update：（2018-04-25）最近weiteng有了一个新的网卡固件，增加了很多功能，比如RSS的精确收集（每个beacon），是需要更新新的内核的，果然以前的失误说不定是以后的财富。
 
 

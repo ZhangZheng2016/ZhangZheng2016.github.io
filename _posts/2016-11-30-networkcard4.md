@@ -3,13 +3,11 @@ layout: post
 title:  "高通毫米波网卡配置（4）"
 date:   2016-11-30 19:52:25
 categories: 网卡
-tags: 高通 网卡 毫米波 60GHz
+tags: 高通 网卡 60Ghz毫米波
 ---
 
 * content
 {:toc}
-
-
 
 
 # (五)	测试连接
