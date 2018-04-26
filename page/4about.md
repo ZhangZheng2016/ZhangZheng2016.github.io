@@ -27,8 +27,8 @@ type: page
 
 ## 联系我
 
-** GitHub：[zhangzheng2016](https://github.com/zhangzheng2016)
-** email：huashanweizhi@gmail.com
+* GitHub：[zhangzheng2016](https://github.com/zhangzheng2016)
+* email：huashanweizhi@gmail.com
 * [Weibo](https://www.weibo.com/3108496392/)
 * [知乎](https://www.zhihu.com/people/di-diao-liao-ha/activities)
 * [Facebook(pause)](https://www.facebook.com)
