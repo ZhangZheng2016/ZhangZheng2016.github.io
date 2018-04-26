@@ -27,8 +27,8 @@ type: page
 
 ## 联系我
 
-* GitHub：[zhangzheng2016](https://github.com/zhangzheng2016)
-* email：huashanweizhi@gmail.com
+** GitHub：[zhangzheng2016](https://github.com/zhangzheng2016)
+** email：huashanweizhi@gmail.com
 * [Weibo](https://www.weibo.com/3108496392/)
 * [知乎](https://www.zhihu.com/people/di-diao-liao-ha/activities)
 * [Facebook(pause)](https://www.facebook.com)
@@ -37,7 +37,7 @@ type: page
 
 ## 关于本站
 
-**感谢@Gaohaoyang 提供了博客主题模板。若您想使用这个 jekyll 博客主题，请访问：[https://github.com/Gaohaoyang/gaohaoyang.github.io](https://github.com/Gaohaoyang/gaohaoyang.github.io)**
+*感谢@Gaohaoyang 提供了博客主题模板。若您也想使用这个 jekyll 博客主题，请访问：[https://github.com/Gaohaoyang/gaohaoyang.github.io](https://github.com/Gaohaoyang/gaohaoyang.github.io)*
 
 
 
