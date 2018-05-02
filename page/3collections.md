@@ -78,6 +78,7 @@ type: page
 	莫凡课程
 	
 *  [google 介绍 tensorflow](https://developers.google.cn/machine-learning/crash-course/ml-intro)
+
 ## GitBook 及其插件
 
 * [Gitbook 的使用和常用插件 -赵达](http://zhaoda.net/2015/11/09/gitbook-plugins/)
