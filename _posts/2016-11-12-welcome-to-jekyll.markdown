@@ -14,3 +14,19 @@ mathjax: true
 
 这是我的第一个个人技术博客，希望能一直将这个blog写下去，记录自己成长，要是你能在阅读当中得到帮助就更好了。
 
+
+安装 git for windows
+
+安装 tortoisegit & language pack 
+
+安装 rubyinstaller dev-kit
+
+安装 rubygem
+
+tortoise clone git project
+
+
+
+cd path/
+
+jekyll serve watch 
