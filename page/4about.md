@@ -14,7 +14,7 @@ type: page
 
 家在[秦皇岛](https://baike.baidu.com/item/%E7%A7%A6%E7%9A%87%E5%B2%9B/180698?fr=aladdin)，现在北京读研。
 
-比较喜欢听音乐、旅行。歌手喜欢林宥嘉、[龚琳娜](https://www.bilibili.com/video/av6311410/)。旅行最远到过西安，希望毕业旅行能去更远一点。
+比较喜欢听音乐、旅行。歌手喜欢林宥嘉、[龚琳娜-她唱阳春白雪时，知者了了。](https://www.bilibili.com/video/av6311410/)。旅行最远到过西安，希望毕业旅行能去更远一点。
 
 世界那么大，我想看的更远！
 
