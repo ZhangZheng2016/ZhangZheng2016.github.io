@@ -10,6 +10,10 @@ type: page
 {:toc}
 
 ## 工具
+* [python re](https://c.runoob.com/front-end/854)
+
+	python 正则表达式快速测试生成
+	
 * [linux order](http://man.linuxde.net/)
 
 	Linux 命令大全
